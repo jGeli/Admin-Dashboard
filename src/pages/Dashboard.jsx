@@ -8,17 +8,15 @@ import RecommendCarCard from "../components/UI/RecommendCarCard";
 
 import recommendCarsData from "../assets/dummy-data/recommendCars";
 
-import total from "../assets/images/total.png";
-
 const carObj = {
-  title: "Total Fights",
+  title: "Total Cars",
   totalNumber: 750,
-  image: "total.png",
+  icon: "ri-police-car-line",
 };
 
 const tripObj = {
-  title: "Daily Fights",
-  totalNumber: 340,
+  title: "Daily Trips",
+  totalNumber: 1697,
   icon: "ri-steering-2-line",
 };
 
