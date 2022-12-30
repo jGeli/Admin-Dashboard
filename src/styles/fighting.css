@@ -1,0 +1,111 @@
+.v-application--wrap {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+}
+
+.logo-text1 {
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.logo-text2 {
+  color: #fff;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  align-self: center;
+  color: #fff;
+  text-align: center;
+  align-items: centerz;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+spam {
+  text-align: center;
+  color: #fff;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.bg-danger {
+    background-color: #db5b5b;
+}
+
+.v-application .text-center {
+  text-align: center!important;
+}
+
+.button-slanted[data-v-25edb08a] {
+    -webkit-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    background-color: #192036;
+    padding: 0 10px;
+}
+.v-application .text-center {
+    text-align: center!important;
+}
+.col-4, .col-5 {
+    -webkit-box-flex: 0;
+}
+
+.col-4 {
+  -ms-flex: 0 0 33.3333333333%;
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+
+.fighting__btns {
+  border: 2px solid yellow;
+  background-color: brown;
+  padding: 7px 25px;
+  background: transparent;
+  border-radius: 5px;
+  color: var(--heading-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.fighting__btn {
+  border: 2px solid #fff;
+  padding: 7px 25px;
+  background: transparent;
+  border-radius: 5px;
+  color: var(--heading-color);
+  font-size: 1rem;
+  cursor: pointer;
+}
+

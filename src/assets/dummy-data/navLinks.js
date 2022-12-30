@@ -19,6 +19,11 @@ const navLinks = [
     icon: "ri-settings-2-line",
     display: "Settings",
   },
+  {
+    path: "/play",
+    icon: "ri-airplay-line",
+    display: "Play",
+  },
 ];
 
 export default navLinks;

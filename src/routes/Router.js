@@ -4,7 +4,8 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Dashboard from "../pages/Dashboard";
 import Bookings from "../pages/Bookings";
 import SellCar from "../pages/SellCar";
-import Settings from "../pages/Settings";
+import Settings from "../pages/Settings";  
+import Play from "../pages/Play";
 
 const Router = () => {
   return (
@@ -13,10 +14,11 @@ const Router = () => {
         path="/"
         element={<Navigate to="/dashboard" element={<Dashboard />} />}
       />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/bookings" element={<Bookings />} />
-      <Route path="/sell-car" element={<SellCar />} />
-      <Route path="/settings" element={<Settings />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/bookings" element={<Bookings />} />
+        <Route path="/sell-car" element={<SellCar />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/play" element={<Play />} />
     </Routes>
   );
 };
