@@ -11,7 +11,7 @@ const Settings = () => {
           <button className="setting__btn">My Details</button>
           <button className="setting__btn active__btn">Profile</button>
           <button className="setting__btn">Password</button>
-          <button className="setting__btn">Email</button>
+          <button className="setting__btn active__btn">Email</button>
           <button className="setting__btn">Notification</button>
         </div>
 

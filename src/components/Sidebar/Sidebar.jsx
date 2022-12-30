@@ -3,6 +3,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import navLinks from "../../assets/dummy-data/navLinks";
 import "./sidebar.css";
+import img from '../../assets/images/logo.png'
 
 const Sidebar = () => {
   return (
@@ -10,9 +11,10 @@ const Sidebar = () => {
       <div className="sidebar__top">
         <h2>
           <span>
-            <i class="ri-taxi-line"></i>
+            <img src={img} />
+            {/* <i class="ri-taxi-line"></i> */}
           </span>{" "}
-          UberX
+          Bugtech
         </h2>
       </div>
 
